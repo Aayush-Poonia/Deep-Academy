@@ -1,0 +1,576 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E6F7FF; /* Soft light blue background */
+    color: #333333; /* Dark charcoal text color */
+}
+
+.para{
+    color:#333333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.team-member {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.team-photo {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #eef;
+    border-left: 5px solid #4CAF50;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px; /* Increased padding for better visibility */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+    margin-top: 20px; /* Added margin to separate from other elements */
+    transition: background-color 0.3s; /* Add a transition effect */
+    width: 100%; /* Make the button full width */
+}
+
+.submit-button:hover {
+    background-color: #45a049; /* Change color on hover */
+}
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 80px; /* Increased margin to ensure footer is not overlapping */
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 10px; /* Space between images */
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: round the corners of images */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+    transition: transform 0.3s; /* Smooth transition effect */
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Slightly enlarge image on hover */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/'); /* Path to your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+}
+
+/* Ensure main content has a solid background for readability */
+main {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    position: relative; /* Enable positlogo.ioning of child elements */
+    background-image: url('../images/'); /* Background image for the header */
+    background-size: cover; /* Cover the entire header area */
+    background-position: center top; /* Position the image at the center, align to the top */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+    height: 300px; /* Set a height for the header (adjust as needed) */
+    color: #fff; /* Text color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    text-align: center; /* Center the text horizontally */
+}
+
+.contact-info {
+    font-size: 16px; /* Font size for the contact info */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 10px; /* Padding for the contact info */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below the contact info */
+}
+
+nav {
+    margin-top: 20px; /* Space between the contact info and navigation */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px; /* Adjust font size for navigation */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/school_background.jpg'); /* Background image for the body */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+}
+
+header {
+    position: relative; /* Enable positioning of child elements */
+    background-image: url('../images/'); /* Background image for the header */
+    background-size: cover; /* Cover the entire header area */
+    background-position: center top; /* Position the image at the center, align to the top */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+    height: 200px; /* Set a medium height for the header (adjust as needed) */
+    color: #fff; /* Text color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    text-align: center; /* Center the text horizontally */
+}
+
+.contact-info {
+    font-size: 16px; /* Font size for the contact info */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 10px; /* Padding for the contact info */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below the contact info */
+}
+
+nav {
+    margin-top: 10px; /* Space between the contact info and navigation */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px; /* Adjust font size for navigation */
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.school-image {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: round the corners of the image */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent footer */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Additional styles for gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 10px; /* Space between images */
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: round the corners of images */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+    transition: transform 0.3s; /* Smooth transition effect */
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Slightly enlarge image on hover */
+}
+
+/* Submit button styles */
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px; /* Increased padding for better visibility */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+    margin-top: 20px; /* Added margin to separate from other elements */
+    transition: background-color 0.3s; /* Add a transition effect */
+    width: 100%; /* Make the button full width */
+}
+
+.submit-button:hover {
+    background-color: #45a049; /* Change color on hover */
+}
+
+
+header {
+    position: relative; /* Enable positioning of child elements */
+    background-image: url('../images/deep_banner.jpg'); /* Background image for the header */
+    background-size: cover; /* Cover the entire header area */
+    background-position: center calc(100% - 12%);
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+    height: 200px; /* Set a medium height for the header (adjust as needed) */
+    color: #fff; /* Text color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    text-align: center; /* Center the text horizontally */
+}
+
+.contact-info {
+    font-size: 16px; /* Font size for the contact info */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 10px; /* Padding for the contact info */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below the contact info */
+}
+
+nav {
+    margin-top: 10px; /* Space between the contact info and navigation */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px; /* Adjust font size for navigation */
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.school-image {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: round the corners of the image */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent footer */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Additional styles for gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 10px; /* Space between images */
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: round the corners of images */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+    transition: transform 0.3s; /* Smooth transition effect */
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Slightly enlarge image on hover */
+}
+
+/* Submit button styles */
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px; /* Increased padding for better visibility */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+    margin-top: 20px; /* Added margin to separate from other elements */
+    transition: background-color 0.3s; /* Add a transition effect */
+    width: 100%; /* Make the button full width */
+}
+
+.submit-button:hover {
+    background-color: #45a049; /* Change color on hover */
+}
+
+
+
+
+
+header {
+    background-color: #333333; /* Light background for the header */
+    color: #ffffff; /* Dark text color */
+    height: 200px; /* Adjust height as needed */
+}
+
+footer {
+    background-color: #333333; /* Dark background for the footer */
+    color: #ffffff; /* Light text color for visibility */
+    text-align: center; /* Center the footer text */
+    padding: 10px 0; /* Add padding for space */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E6F7FF; /* Background color */
+    color: #333333; /* Dark charcoal text color */
+}
+
+
+
+
+
+
+
+
+
+
