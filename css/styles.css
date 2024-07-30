@@ -635,6 +635,90 @@ footer {
     
 }
 
+/* main */
+
+main {
+    padding: 20px;
+    background-color: #E6F7FF;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #1A1A2E;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.intro p, .event p {
+    font-size: 16px;
+    color: #333;
+}
+
+.announcements ul, .facilities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.announcements ul li, .facilities ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.news-events .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.news-events .event {
+    flex: 0 0 100%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-events .event h3 {
+    margin: 0 0 5px 0;
+    color: #1A1A2E;
+}
+
+.carousel-button {
+    background-color: #1A1A2E;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.collapsible {
+    background-color: #1A1A2E;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: none;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+
 
 
 
