@@ -34,7 +34,7 @@
         </span>
         
         <!-- Login Modal -->
-        <div id="loginModal" class="modal">
+        <form id="loginForm" action="/api/submit_form" method="post">
             <div class="modal-content">
                 <span class="close" data-modal="loginModal">&times;</span>
                 <h2>Login</h2>
@@ -53,7 +53,7 @@
             <div class="modal-content">
                 <span class="close" data-modal="signupModal">&times;</span>
                 <h2>Signup</h2>
-                <form id="signupForm">
+                <form id="signupForm" action="/api/submit_form" method="post">
                     <label for="signupName">Name:</label>
                     <input type="text" id="signupName" name="signupName" required>
                     <label for="signupEmail">Email:</label>
