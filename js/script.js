@@ -78,3 +78,4 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+import { Analytics } from "@vercel/analytics/react"
